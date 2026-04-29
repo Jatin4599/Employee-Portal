@@ -6,7 +6,7 @@ pipeline {
         stage('Clone') {
             steps {
                 git branch: 'main',
-                url: 'https://github.com/YOURUSERNAME/employee-portal.git'
+                url: 'https://github.com/Jatin4599/Employee-Portal.git'
             }
         }
 
